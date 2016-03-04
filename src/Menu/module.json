@@ -6,6 +6,7 @@
     "active": 1,
     "order": 0,
     "providers": [
+        "Baum\\Providers\\BaumServiceProvider",
         "Modules\\Menu\\Providers\\MenuServiceProvider",
         "Modules\\Menu\\Providers\\AuthServiceProvider",
         "Modules\\Menu\\Providers\\RouteServiceProvider",
