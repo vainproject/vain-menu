@@ -1,0 +1,17 @@
+{
+    "name": "Menu",
+    "alias": "menu",
+    "description": "This is a custom menu module for the vain platform. It provides a backend panel to tailer the frontend menu to your needs.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Menu\\Providers\\MenuServiceProvider",
+        "Modules\\Menu\\Providers\\AuthServiceProvider",
+        "Modules\\Menu\\Providers\\RouteServiceProvider",
+        "Modules\\Menu\\Providers\\ConfigServiceProvider",
+        "Modules\\Menu\\Providers\\EventServiceProvider"
+    ],
+    "aliases":{},
+    "files": []
+}
