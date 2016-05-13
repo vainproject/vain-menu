@@ -17,7 +17,7 @@ class MenuServiceProvider extends ServiceProvider
 
     /**
      * Boot the application events.
-     * 
+     *
      * @return void
      */
     public function boot()

@@ -53,7 +53,7 @@ class MenuItemBuilder
     private function attachChildren($items, $parent = null)
     {
         foreach ($items as $item) {
-            /** @var  $parent MenuItem */
+            /** @var $parent MenuItem */
             $parent = $parent->addChild($item->content->title)
                 ->setExtra('patterns', $this->extractPattern($item))
                 ->setUri($item->url);

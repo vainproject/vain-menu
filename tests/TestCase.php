@@ -2,8 +2,8 @@
 
 namespace Modules\Menu\Test;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Modules\Menu\Providers\MenuServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {
